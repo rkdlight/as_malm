@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1685.Hardware.hw" LastWriteTime="06/14/2025 10:36:08" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1685" Type="X20CP1685" X="100" Y="100" />
+    <Module Name="X20IF1082-2" Type="X20IF1082-2" X="212" Y="100" />
+    <Module Name="X20BM01" Type="X20BM01" X="250" Y="100" />
+    <Module Name="X20PS3300" Type="X20PS3300" X="250" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="250" Y="127" />
+    <Module Name="X20CM0985-1_a" Type="X20CM0985-1" X="263" Y="100" />
+    <Module Name="X20CM0985-1_b" Type="X20CM0985-1" X="354" Y="100" />
+    <Module Name="X20BM11" Type="X20BM11" X="445" Y="100" />
+    <Module Name="X20BT9100" Type="X20BT9100" X="445" Y="100" />
+    <Module Name="X20TB12a" Type="X20TB12" X="445" Y="127" />
+    <Module Name="ModbusTcp_303" Type="ModbusTcp_any" X="611" Y="249" />
+    <Module Name="ModbusTcp_304" Type="ModbusTcp_any" X="751" Y="249" />
+    <Module Name="ModbusTcp_306" Type="ModbusTcp_any" X="891" Y="249" />
+    <Module Name="ModbusTcp_401" Type="ModbusTcp_any" X="1031" Y="249" />
+    <Module Name="ModbusTcp_403" Type="ModbusTcp_any" X="1171" Y="249" />
+    <Module Name="ModbusTcp_404" Type="ModbusTcp_any" X="1311" Y="249" />
+    <Module Name="ModbusTcp_405" Type="ModbusTcp_any" X="1451" Y="249" />
+    <Module Name="ModbusTcp_302" Type="ModbusTcp_any" X="471" Y="249" />
+    <Module Name="X20BM01a" Type="X20BM01" X="503" Y="100" />
+    <Module Name="X20BR9300" Type="X20BR9300" X="503" Y="100" />
+    <Module Name="X20TB12b" Type="X20TB12" X="503" Y="127" />
+    <Module Name="X20BM11a" Type="X20BM11" X="516" Y="100" />
+    <Module Name="X20DI9371" Type="X20DI9371" X="516" Y="100" />
+    <Module Name="X20TB12c" Type="X20TB12" X="516" Y="127" />
+    <Module Name="X20BM11b" Type="X20BM11" X="529" Y="100" />
+    <Module Name="X20DI9371a" Type="X20DI9371" X="529" Y="100" />
+    <Module Name="X20TB12d" Type="X20TB12" X="529" Y="127" />
+    <Module Name="X20BM11c" Type="X20BM11" X="542" Y="100" />
+    <Module Name="X20DI9371b" Type="X20DI9371" X="542" Y="100" />
+    <Module Name="X20TB12e" Type="X20TB12" X="542" Y="127" />
+    <Module Name="X20BM11d" Type="X20BM11" X="555" Y="100" />
+    <Module Name="X20DI9371c" Type="X20DI9371" X="555" Y="100" />
+    <Module Name="X20TB12f" Type="X20TB12" X="555" Y="127" />
+    <Module Name="X20BM11e" Type="X20BM11" X="568" Y="100" />
+    <Module Name="X20DI9371d" Type="X20DI9371" X="568" Y="100" />
+    <Module Name="X20TB12g" Type="X20TB12" X="568" Y="127" />
+    <Module Name="X20BM11f" Type="X20BM11" X="581" Y="100" />
+    <Module Name="X20DO9322" Type="X20DO9322" X="581" Y="100" />
+    <Module Name="X20TB12h" Type="X20TB12" X="581" Y="127" />
+    <Module Name="X20BM11g" Type="X20BM11" X="594" Y="100" />
+    <Module Name="X20DO9322a" Type="X20DO9322" X="594" Y="100" />
+    <Module Name="X20TB12i" Type="X20TB12" X="594" Y="127" />
+    <Module Name="X20BM11h" Type="X20BM11" X="607" Y="100" />
+    <Module Name="X20DO9322b" Type="X20DO9322" X="607" Y="100" />
+    <Module Name="X20TB12j" Type="X20TB12" X="607" Y="127" />
+    <Module Name="X20BM11i" Type="X20BM11" X="620" Y="100" />
+    <Module Name="X20AT4222" Type="X20AT4222" X="620" Y="100" />
+    <Module Name="X20TB12k" Type="X20TB12" X="620" Y="127" />
+    <Module Name="X20BM11j" Type="X20BM11" X="633" Y="100" />
+    <Module Name="X20AI2437" Type="X20AI2437" X="633" Y="100" />
+    <Module Name="X20TB12l" Type="X20TB12" X="633" Y="127" />
+    <Module Name="ModbusTcp_G8" Type="ModbusTcp_any" X="205" Y="455" />
+    <Module Name="ModbusTcp_G9" Type="ModbusTcp_any" X="345" Y="455" />
+    <Module Name="ModbusTcp_G10" Type="ModbusTcp_any" X="485" Y="455" />
+    <Module Name="ModbusTcp_G11" Type="ModbusTcp_any" X="625" Y="455" />
+    <Module Name="ModbusTcp_G12" Type="ModbusTcp_any" X="765" Y="455" />
+    <Module Name="ModbusTcp_G13" Type="ModbusTcp_any" X="905" Y="455" />
+    <Module Name="ModbusTcp_G14" Type="ModbusTcp_any" X="1045" Y="455" />
+    <Module Name="ModbusTcp_G15" Type="ModbusTcp_any" X="1185" Y="455" />
+    <Module Name="ModbusTcp_G16" Type="ModbusTcp_any" X="1325" Y="455" />
+    <Module Name="ModbusTcp_G11_ComAp" Type="ModbusTcp_any" X="1498" Y="455" />
+    <Module Name="ModbusTcp_G10_ComAp" Type="ModbusTcp_any" X="3038" Y="702" />
+    <Module Name="ModbusTcp_G12_ComAp" Type="ModbusTcp_any" X="1638" Y="455" />
+    <Module Name="ModbusTcp_G13_ComAp" Type="ModbusTcp_any" X="1778" Y="455" />
+    <Module Name="ModbusTcp_G14_ComAp" Type="ModbusTcp_any" X="1918" Y="455" />
+    <Module Name="ModbusTcp_G15_ComAp" Type="ModbusTcp_any" X="2058" Y="455" />
+    <Module Name="ModbusTcp_G16_ComAp" Type="ModbusTcp_any" X="2198" Y="455" />
+    <Module Name="ModbusTcp_G17" Type="ModbusTcp_any" X="1415" Y="552" />
+    <Module Name="ModbusTcp_G17_ComAp" Type="ModbusTcp_any" X="2338" Y="455" />
+    <Module Name="ModbusTcp_G18" Type="ModbusTcp_any" X="1604" Y="602" />
+    <Module Name="ModbusTcp_G18_ComAp" Type="ModbusTcp_any" X="2478" Y="455" />
+    <Module Name="ModbusTcp_G19" Type="ModbusTcp_any" X="1828" Y="620" />
+    <Module Name="ModbusTcp_G19_ComAp" Type="ModbusTcp_any" X="2618" Y="455" />
+    <Module Name="ModbusTcp_G20" Type="ModbusTcp_any" X="1968" Y="652" />
+    <Module Name="ModbusTcp_G20_ComAp" Type="ModbusTcp_any" X="2758" Y="455" />
+    <Module Name="ModbusTcp_G21" Type="ModbusTcp_any" X="2165" Y="670" />
+    <Module Name="ModbusTcp_G21_ComAp" Type="ModbusTcp_any" X="2898" Y="455" />
+    <Module Name="ModbusTcp_G22" Type="ModbusTcp_any" X="2388" Y="687" />
+    <Module Name="ModbusTcp_G22_ComAp" Type="ModbusTcp_any" X="3038" Y="455" />
+    <Module Name="ModbusTcp_G23" Type="ModbusTcp_any" X="2568" Y="720" />
+    <Module Name="ModbusTcp_G23_ComAp" Type="ModbusTcp_any" X="3178" Y="455" />
+    <Module Name="ModbusTcp_G24" Type="ModbusTcp_any" X="2758" Y="720" />
+    <Module Name="ModbusTcp_G24_ComAp" Type="ModbusTcp_any" X="3318" Y="455" />
+    <Module Name="ModbusTcp_G25" Type="ModbusTcp_any" X="2886" Y="702" />
+    <Module Name="ModbusTcp_G25_ComAp" Type="ModbusTcp_any" X="3458" Y="455" />
+    <Module Name="ModbusTcp_G8_ComAp" Type="ModbusTcp_any" X="3250.96313" Y="687.6174" />
+    <Module Name="ModbusTcp_G9_ComAp" Type="ModbusTcp_any" X="3412.96313" Y="699.6174" />
+  </Modules>
+  <Links>
+    <Link From="ModbusTcp_302" To="X20IF1082-2" FromPort="ETH1" ToPort="IF1" IsRoutedByUser="False">
+      <Point X="505" Y="293" />
+      <Point X="505" Y="293" />
+      <Point X="505" Y="300" />
+      <Point X="505" Y="305" />
+      <Point X="226" Y="305" />
+      <Point X="226" Y="200" />
+      <Point X="226" Y="191" />
+      <Point X="226" Y="191" />
+    </Link>
+    <Link From="ModbusTcp_302" To="ModbusTcp_303" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="645" Y="293" />
+      <Point X="645" Y="293" />
+      <Point X="645" Y="300" />
+      <Point X="645" Y="305" />
+      <Point X="530" Y="305" />
+      <Point X="530" Y="300" />
+      <Point X="530" Y="293" />
+      <Point X="530" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_303" To="ModbusTcp_304" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="670" Y="293" />
+      <Point X="670" Y="293" />
+      <Point X="670" Y="300" />
+      <Point X="670" Y="305" />
+      <Point X="785" Y="305" />
+      <Point X="785" Y="300" />
+      <Point X="785" Y="293" />
+      <Point X="785" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_304" To="ModbusTcp_306" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="810" Y="293" />
+      <Point X="810" Y="293" />
+      <Point X="810" Y="300" />
+      <Point X="810" Y="305" />
+      <Point X="925" Y="305" />
+      <Point X="925" Y="300" />
+      <Point X="925" Y="293" />
+      <Point X="925" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_306" To="ModbusTcp_401" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="950" Y="293" />
+      <Point X="950" Y="293" />
+      <Point X="950" Y="300" />
+      <Point X="950" Y="305" />
+      <Point X="1065" Y="305" />
+      <Point X="1065" Y="300" />
+      <Point X="1065" Y="293" />
+      <Point X="1065" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_401" To="ModbusTcp_403" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1090" Y="293" />
+      <Point X="1090" Y="293" />
+      <Point X="1090" Y="300" />
+      <Point X="1090" Y="305" />
+      <Point X="1205" Y="305" />
+      <Point X="1205" Y="300" />
+      <Point X="1205" Y="293" />
+      <Point X="1205" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_403" To="ModbusTcp_404" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1230" Y="293" />
+      <Point X="1230" Y="293" />
+      <Point X="1230" Y="300" />
+      <Point X="1230" Y="305" />
+      <Point X="1345" Y="305" />
+      <Point X="1345" Y="300" />
+      <Point X="1345" Y="293" />
+      <Point X="1345" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_404" To="ModbusTcp_405" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1370" Y="293" />
+      <Point X="1370" Y="293" />
+      <Point X="1370" Y="300" />
+      <Point X="1370" Y="305" />
+      <Point X="1485" Y="305" />
+      <Point X="1485" Y="300" />
+      <Point X="1485" Y="293" />
+      <Point X="1485" Y="293" />
+    </Link>
+    <Link From="ModbusTcp_G10" To="ModbusTcp_G9" FromPort="ETH1" ToPort="ETH2" IsRoutedByUser="False">
+      <Point X="404" Y="499" />
+      <Point X="404" Y="499" />
+      <Point X="404" Y="506" />
+      <Point X="404" Y="515" />
+      <Point X="519" Y="515" />
+      <Point X="519" Y="506" />
+      <Point X="519" Y="499" />
+      <Point X="519" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G10" To="ModbusTcp_G11" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="544" Y="499" />
+      <Point X="544" Y="499" />
+      <Point X="544" Y="506" />
+      <Point X="544" Y="515" />
+      <Point X="659" Y="515" />
+      <Point X="659" Y="506" />
+      <Point X="659" Y="499" />
+      <Point X="659" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G11" To="ModbusTcp_G12" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="684" Y="499" />
+      <Point X="684" Y="499" />
+      <Point X="684" Y="506" />
+      <Point X="684" Y="515" />
+      <Point X="799" Y="515" />
+      <Point X="799" Y="506" />
+      <Point X="799" Y="499" />
+      <Point X="799" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G11_ComAp" To="ModbusTcp_G12_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1557" Y="499" />
+      <Point X="1557" Y="499" />
+      <Point X="1557" Y="506" />
+      <Point X="1557" Y="522" />
+      <Point X="1672" Y="522" />
+      <Point X="1672" Y="506" />
+      <Point X="1672" Y="499" />
+      <Point X="1672" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G12" To="ModbusTcp_G13" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="824" Y="499" />
+      <Point X="824" Y="499" />
+      <Point X="824" Y="506" />
+      <Point X="824" Y="515" />
+      <Point X="939" Y="515" />
+      <Point X="939" Y="506" />
+      <Point X="939" Y="499" />
+      <Point X="939" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G12_ComAp" To="ModbusTcp_G13_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1697" Y="499" />
+      <Point X="1697" Y="499" />
+      <Point X="1697" Y="506" />
+      <Point X="1697" Y="522" />
+      <Point X="1812" Y="522" />
+      <Point X="1812" Y="506" />
+      <Point X="1812" Y="499" />
+      <Point X="1812" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G13" To="ModbusTcp_G14" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="964" Y="499" />
+      <Point X="964" Y="499" />
+      <Point X="964" Y="506" />
+      <Point X="964" Y="515" />
+      <Point X="1079" Y="515" />
+      <Point X="1079" Y="506" />
+      <Point X="1079" Y="499" />
+      <Point X="1079" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G13_ComAp" To="ModbusTcp_G14_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1837" Y="499" />
+      <Point X="1837" Y="499" />
+      <Point X="1837" Y="506" />
+      <Point X="1837" Y="522" />
+      <Point X="1952" Y="522" />
+      <Point X="1952" Y="506" />
+      <Point X="1952" Y="499" />
+      <Point X="1952" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G14" To="ModbusTcp_G15" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1104" Y="499" />
+      <Point X="1104" Y="499" />
+      <Point X="1104" Y="506" />
+      <Point X="1104" Y="515" />
+      <Point X="1219" Y="515" />
+      <Point X="1219" Y="506" />
+      <Point X="1219" Y="499" />
+      <Point X="1219" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G14_ComAp" To="ModbusTcp_G15_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1977" Y="499" />
+      <Point X="1977" Y="499" />
+      <Point X="1977" Y="506" />
+      <Point X="1977" Y="522" />
+      <Point X="2092" Y="522" />
+      <Point X="2092" Y="506" />
+      <Point X="2092" Y="499" />
+      <Point X="2092" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G15" To="ModbusTcp_G16" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1244" Y="499" />
+      <Point X="1244" Y="499" />
+      <Point X="1244" Y="506" />
+      <Point X="1244" Y="515" />
+      <Point X="1359" Y="515" />
+      <Point X="1359" Y="506" />
+      <Point X="1359" Y="499" />
+      <Point X="1359" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G15_ComAp" To="ModbusTcp_G16_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2117" Y="499" />
+      <Point X="2117" Y="499" />
+      <Point X="2117" Y="506" />
+      <Point X="2117" Y="522" />
+      <Point X="2232" Y="522" />
+      <Point X="2232" Y="506" />
+      <Point X="2232" Y="499" />
+      <Point X="2232" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G16" To="ModbusTcp_G17" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1384" Y="499" />
+      <Point X="1384" Y="499" />
+      <Point X="1384" Y="506" />
+      <Point X="1384" Y="615" />
+      <Point X="1449" Y="615" />
+      <Point X="1449" Y="603" />
+      <Point X="1449" Y="596" />
+      <Point X="1449" Y="596" />
+    </Link>
+    <Link From="ModbusTcp_G16_ComAp" To="ModbusTcp_G17_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2257" Y="499" />
+      <Point X="2257" Y="499" />
+      <Point X="2257" Y="506" />
+      <Point X="2257" Y="522" />
+      <Point X="2372" Y="522" />
+      <Point X="2372" Y="506" />
+      <Point X="2372" Y="499" />
+      <Point X="2372" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G17" To="ModbusTcp_G18" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1474" Y="596" />
+      <Point X="1474" Y="596" />
+      <Point X="1474" Y="603" />
+      <Point X="1474" Y="665" />
+      <Point X="1638" Y="665" />
+      <Point X="1638" Y="653" />
+      <Point X="1638" Y="646" />
+      <Point X="1638" Y="646" />
+    </Link>
+    <Link From="ModbusTcp_G17_ComAp" To="ModbusTcp_G18_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2397" Y="499" />
+      <Point X="2397" Y="499" />
+      <Point X="2397" Y="506" />
+      <Point X="2397" Y="522" />
+      <Point X="2512" Y="522" />
+      <Point X="2512" Y="506" />
+      <Point X="2512" Y="499" />
+      <Point X="2512" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G18" To="ModbusTcp_G19" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1663" Y="646" />
+      <Point X="1663" Y="646" />
+      <Point X="1663" Y="653" />
+      <Point X="1663" Y="685" />
+      <Point X="1862" Y="685" />
+      <Point X="1862" Y="671" />
+      <Point X="1862" Y="664" />
+      <Point X="1862" Y="664" />
+    </Link>
+    <Link From="ModbusTcp_G18_ComAp" To="ModbusTcp_G19_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2537" Y="499" />
+      <Point X="2537" Y="499" />
+      <Point X="2537" Y="506" />
+      <Point X="2537" Y="522" />
+      <Point X="2652" Y="522" />
+      <Point X="2652" Y="506" />
+      <Point X="2652" Y="499" />
+      <Point X="2652" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G19" To="ModbusTcp_G20" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1887" Y="664" />
+      <Point X="1887" Y="664" />
+      <Point X="1887" Y="671" />
+      <Point X="1887" Y="715" />
+      <Point X="2002" Y="715" />
+      <Point X="2002" Y="703" />
+      <Point X="2002" Y="696" />
+      <Point X="2002" Y="696" />
+    </Link>
+    <Link From="ModbusTcp_G19_ComAp" To="ModbusTcp_G20_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2677" Y="499" />
+      <Point X="2677" Y="499" />
+      <Point X="2677" Y="506" />
+      <Point X="2677" Y="522" />
+      <Point X="2792" Y="522" />
+      <Point X="2792" Y="506" />
+      <Point X="2792" Y="499" />
+      <Point X="2792" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G20" To="ModbusTcp_G21" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2027" Y="696" />
+      <Point X="2027" Y="696" />
+      <Point X="2027" Y="703" />
+      <Point X="2027" Y="735" />
+      <Point X="2199" Y="735" />
+      <Point X="2199" Y="721" />
+      <Point X="2199" Y="714" />
+      <Point X="2199" Y="714" />
+    </Link>
+    <Link From="ModbusTcp_G20_ComAp" To="ModbusTcp_G21_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2817" Y="499" />
+      <Point X="2817" Y="499" />
+      <Point X="2817" Y="506" />
+      <Point X="2817" Y="529" />
+      <Point X="2932" Y="529" />
+      <Point X="2932" Y="506" />
+      <Point X="2932" Y="499" />
+      <Point X="2932" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G21" To="ModbusTcp_G22" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2224" Y="714" />
+      <Point X="2224" Y="714" />
+      <Point X="2224" Y="721" />
+      <Point X="2224" Y="745" />
+      <Point X="2422" Y="745" />
+      <Point X="2422" Y="738" />
+      <Point X="2422" Y="731" />
+      <Point X="2422" Y="731" />
+    </Link>
+    <Link From="ModbusTcp_G21_ComAp" To="ModbusTcp_G22_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2957" Y="499" />
+      <Point X="2957" Y="499" />
+      <Point X="2957" Y="506" />
+      <Point X="2957" Y="529" />
+      <Point X="3072" Y="529" />
+      <Point X="3072" Y="506" />
+      <Point X="3072" Y="499" />
+      <Point X="3072" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G22" To="ModbusTcp_G23" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2447" Y="731" />
+      <Point X="2447" Y="731" />
+      <Point X="2447" Y="738" />
+      <Point X="2447" Y="785" />
+      <Point X="2602" Y="785" />
+      <Point X="2602" Y="771" />
+      <Point X="2602" Y="764" />
+      <Point X="2602" Y="764" />
+    </Link>
+    <Link From="ModbusTcp_G22_ComAp" To="ModbusTcp_G23_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="3097" Y="499" />
+      <Point X="3097" Y="499" />
+      <Point X="3097" Y="506" />
+      <Point X="3097" Y="515" />
+      <Point X="3212" Y="515" />
+      <Point X="3212" Y="506" />
+      <Point X="3212" Y="499" />
+      <Point X="3212" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G23" To="ModbusTcp_G24" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2627" Y="764" />
+      <Point X="2627" Y="764" />
+      <Point X="2627" Y="771" />
+      <Point X="2627" Y="785" />
+      <Point X="2792" Y="785" />
+      <Point X="2792" Y="771" />
+      <Point X="2792" Y="764" />
+      <Point X="2792" Y="764" />
+    </Link>
+    <Link From="ModbusTcp_G23_ComAp" To="ModbusTcp_G24_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="3237" Y="499" />
+      <Point X="3237" Y="499" />
+      <Point X="3237" Y="506" />
+      <Point X="3237" Y="515" />
+      <Point X="3352" Y="515" />
+      <Point X="3352" Y="506" />
+      <Point X="3352" Y="499" />
+      <Point X="3352" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G24" To="ModbusTcp_G25" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2817" Y="764" />
+      <Point X="2817" Y="764" />
+      <Point X="2817" Y="771" />
+      <Point X="2817" Y="785" />
+      <Point X="2920" Y="785" />
+      <Point X="2920" Y="753" />
+      <Point X="2920" Y="746" />
+      <Point X="2920" Y="746" />
+    </Link>
+    <Link From="ModbusTcp_G24_ComAp" To="ModbusTcp_G25_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="3377" Y="499" />
+      <Point X="3377" Y="499" />
+      <Point X="3377" Y="506" />
+      <Point X="3377" Y="515" />
+      <Point X="3492" Y="515" />
+      <Point X="3492" Y="506" />
+      <Point X="3492" Y="499" />
+      <Point X="3492" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G8" To="ModbusTcp_G9" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="264" Y="499" />
+      <Point X="264" Y="499" />
+      <Point X="264" Y="506" />
+      <Point X="264" Y="515" />
+      <Point X="379" Y="515" />
+      <Point X="379" Y="506" />
+      <Point X="379" Y="499" />
+      <Point X="379" Y="499" />
+    </Link>
+    <Link From="X20BR9300" To="X20BT9100" FromPort="X2X1" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="452" Y="144" />
+      <Point X="452" Y="144" />
+      <Point X="459" Y="144" />
+      <Point X="502" Y="144" />
+      <Point X="509" Y="144" />
+      <Point X="509" Y="144" />
+    </Link>
+    <Link From="ModbusTcp_405" To="ModbusTcp_G8" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="1510" Y="293" />
+      <Point X="1510" Y="293" />
+      <Point X="1510" Y="300" />
+      <Point X="1510" Y="305" />
+      <Point X="1485" Y="305" />
+      <Point X="1485" Y="515" />
+      <Point X="239" Y="515" />
+      <Point X="239" Y="506" />
+      <Point X="239" Y="499" />
+      <Point X="239" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G8_ComAp" To="ModbusTcp_G9_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="3309.96313" Y="731.6174" />
+      <Point X="3309.96313" Y="731.6174" />
+      <Point X="3309.96313" Y="738.6174" />
+      <Point X="3309.96313" Y="755.6174" />
+      <Point X="3446.96313" Y="755.6174" />
+      <Point X="3446.96313" Y="750.6174" />
+      <Point X="3446.96313" Y="743.6174" />
+      <Point X="3446.96313" Y="743.6174" />
+    </Link>
+    <Link From="ModbusTcp_G10_ComAp" To="ModbusTcp_G9_ComAp" FromPort="ETH1" ToPort="ETH2" IsRoutedByUser="False">
+      <Point X="3072" Y="746" />
+      <Point X="3072" Y="746" />
+      <Point X="3072" Y="753" />
+      <Point X="3072" Y="765" />
+      <Point X="3471.96313" Y="765" />
+      <Point X="3471.96313" Y="750.6174" />
+      <Point X="3471.96313" Y="743.6174" />
+      <Point X="3471.96313" Y="743.6174" />
+    </Link>
+    <Link From="ModbusTcp_G10_ComAp" To="ModbusTcp_G11_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="3097" Y="746" />
+      <Point X="3097" Y="746" />
+      <Point X="3097" Y="753" />
+      <Point X="3097" Y="765" />
+      <Point X="3025" Y="765" />
+      <Point X="3025" Y="595" />
+      <Point X="1532" Y="595" />
+      <Point X="1532" Y="506" />
+      <Point X="1532" Y="499" />
+      <Point X="1532" Y="499" />
+    </Link>
+    <Link From="ModbusTcp_G25" To="ModbusTcp_G8_ComAp" FromPort="ETH2" ToPort="ETH1" IsRoutedByUser="False">
+      <Point X="2945" Y="746" />
+      <Point X="2945" Y="746" />
+      <Point X="2945" Y="753" />
+      <Point X="2945" Y="772" />
+      <Point X="3284.96313" Y="772" />
+      <Point X="3284.96313" Y="738.6174" />
+      <Point X="3284.96313" Y="731.6174" />
+      <Point X="3284.96313" Y="731.6174" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

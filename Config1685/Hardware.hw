@@ -1,0 +1,2790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.12.6.106 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="1.2B310" Type="X20DI9371" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12c" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
+  </Module>
+  <Module Name="1.3B310" Type="X20DI9371" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12d" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11b" TargetConnector="SL1" />
+  </Module>
+  <Module Name="1.4B310" Type="X20DI9371" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12e" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11c" TargetConnector="SL1" />
+  </Module>
+  <Module Name="1.5B310" Type="X20DI9371" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12f" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11d" TargetConnector="SL1" />
+  </Module>
+  <Module Name="1.6B310" Type="X20DI9371" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12g" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11e" TargetConnector="SL1" />
+  </Module>
+  <Module Name="1.7B310" Type="X20DO9322" Version="1.5.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12h" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11f" TargetConnector="SL1" />
+  </Module>
+  <Module Name="1.8B310" Type="X20DO9322" Version="1.5.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12i" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11g" TargetConnector="SL1" />
+  </Module>
+  <Module Name="1.9B310" Type="X20DO9322" Version="1.5.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12j" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11h" TargetConnector="SL1" />
+  </Module>
+  <Module Name="ModbusTcp_302" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="X20IF1082-2" TargetConnector="IF1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_303" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.126" />
+    <Parameter ID="UnitId" Value="26" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_303" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_302" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_304" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.127" />
+    <Parameter ID="UnitId" Value="27" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_304" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_303" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_306" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.128" />
+    <Parameter ID="UnitId" Value="28" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_306" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_304" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_401" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.130" />
+    <Parameter ID="UnitId" Value="30" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_401" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_306" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_403" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.132" />
+    <Parameter ID="UnitId" Value="32" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_403" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_401" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_404" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.134" />
+    <Parameter ID="UnitId" Value="34" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_404" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_403" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_405" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.135" />
+    <Parameter ID="UnitId" Value="35" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_405" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_404" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G8" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.136" />
+    <Parameter ID="UnitId" Value="36" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="16516" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="Uab" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="8" />
+    <Group ID="Cb_1_C_2" />
+    <Parameter ID="Cb_1_C_2_Name" Value="Ubc" />
+    <Parameter ID="Cb_1_C_2_Datatype" Value="8" />
+    <Group ID="Cb_1_C_3" />
+    <Parameter ID="Cb_1_C_3_Name" Value="Uca" />
+    <Parameter ID="Cb_1_C_3_Datatype" Value="8" />
+    <Group ID="Cb_1_C_4" />
+    <Parameter ID="Cb_1_C_4_Name" Value="Ia" />
+    <Parameter ID="Cb_1_C_4_Datatype" Value="8" />
+    <Group ID="Cb_1_C_5" />
+    <Parameter ID="Cb_1_C_5_Name" Value="Ib" />
+    <Parameter ID="Cb_1_C_5_Datatype" Value="8" />
+    <Group ID="Cb_1_C_6" />
+    <Parameter ID="Cb_1_C_6_Name" Value="Ic" />
+    <Parameter ID="Cb_1_C_6_Datatype" Value="8" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="16538" />
+    <Parameter ID="Cb_2_NumItems" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="F" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="8" />
+    <Group ID="Cb_2_C_2" />
+    <Parameter ID="Cb_2_C_2_Name" Value="S" />
+    <Parameter ID="Cb_2_C_2_Datatype" Value="8" />
+    <Group ID="Cb_2_C_3" />
+    <Parameter ID="Cb_2_C_3_Name" Value="P" />
+    <Parameter ID="Cb_2_C_3_Datatype" Value="8" />
+    <Group ID="Cb_2_C_4" />
+    <Parameter ID="Cb_2_C_4_Name" Value="Q" />
+    <Parameter ID="Cb_2_C_4_Datatype" Value="8" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="14464" />
+    <Parameter ID="Cb_3_NumItems" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="start_oscil" />
+    <Group ID="Cb_3_C_2" />
+    <Parameter ID="Cb_3_C_2_Name" Value="warn_signal" />
+    <Group ID="Cb_3_C_3" />
+    <Parameter ID="Cb_3_C_3_Name" Value="Diag" />
+    <Group ID="Cb_3_C_4" />
+    <Parameter ID="Cb_3_C_4_Name" Value="emerg_signal" />
+    <Group ID="Cb_3_C_5" />
+    <Parameter ID="Cb_3_C_5_Name" Value="Job" />
+    <Group ID="Cb_3_C_6" />
+    <Parameter ID="Cb_3_C_6_Name" Value="from_work" />
+    <Group ID="Cb_3_C_7" />
+    <Parameter ID="Cb_3_C_7_Name" Value="Reset" />
+    <Group ID="Cb_3_C_8" />
+    <Parameter ID="Cb_3_C_8_Name" Value="RPO" />
+    <Group ID="Cb_3_C_9" />
+    <Parameter ID="Cb_3_C_9_Name" Value="RPV" />
+    <Group ID="Cb_3_C_10" />
+    <Parameter ID="Cb_3_C_10_Name" Value="troll_job" />
+    <Group ID="Cb_3_C_11" />
+    <Parameter ID="Cb_3_C_11_Name" Value="malf_CPU" />
+    <Group ID="Cb_3_C_12" />
+    <Parameter ID="Cb_3_C_12_Name" Value="vol_12" />
+    <Group ID="Cb_3_C_13" />
+    <Parameter ID="Cb_3_C_13_Name" Value="vol_13" />
+    <Group ID="Cb_3_C_14" />
+    <Parameter ID="Cb_3_C_14_Name" Value="vol_14" />
+    <Group ID="Cb_3_C_15" />
+    <Parameter ID="Cb_3_C_15_Name" Value="MTZ_job" />
+    <Group ID="Cb_3_C_16" />
+    <Parameter ID="Cb_3_C_16_Name" Value="ZoZZ_job" />
+  </Module>
+  <Module Name="ModbusTcp_G10" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G9" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G11" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.140" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G10_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G9_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G11_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.10" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G11" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G10" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G12" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.141" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G11_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G10_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G12_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.11" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="3" />
+    <Parameter ID="Cb_11_Addr" Value="1177" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="Volt_bat" />
+    <Parameter ID="Cb_11_C_1_Datatype" Value="3" />
+    <Group ID="Cb_12" />
+    <Parameter ID="Cb_12_FunCode" Value="2" />
+    <Parameter ID="Cb_12_NumItems" Value="0" />
+    <Group ID="Cb_12_C_1" />
+    <Parameter ID="Cb_12_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G12" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G11" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G13" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.142" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G12_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G11_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G13_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.12" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G13" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G12" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G14" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.143" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G13_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G12_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G14_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.13" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G14" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G13" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G15" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.144" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G14_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G13_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G15_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.14" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="3" />
+    <Parameter ID="Cb_11_Addr" Value="1177" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="Volt_bat" />
+    <Parameter ID="Cb_11_C_1_Datatype" Value="3" />
+    <Group ID="Cb_12" />
+    <Parameter ID="Cb_12_FunCode" Value="2" />
+    <Parameter ID="Cb_12_NumItems" Value="0" />
+    <Group ID="Cb_12_C_1" />
+    <Parameter ID="Cb_12_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G15" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G14" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G16" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.145" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G15_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G14_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G16_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.15" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G16" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G15" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G17" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.146" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G16_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G15_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G17_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.16" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G17" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G16" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G18" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.147" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G17_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G16_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G18_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.17" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G18" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G17" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G19" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.148" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G18_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G17_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G19_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.18" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G19" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G18" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G20" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.149" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G19_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G18_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G20_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.19" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G20" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G19" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G21" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.150" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G20_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G19_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G21_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.20" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G21" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G20" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G22" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.151" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G21_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G20_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G22_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.21" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G22" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G21" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G23" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.152" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G22_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G21_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G23_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.22" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G23" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G22" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G24" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.153" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G23_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G22_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G24_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.23" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G24" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G23" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G25" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.154" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G24_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G23_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G25_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.24" />
+    <Parameter ID="UnitId" Value="2" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G25" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G24" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G8_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.155" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G25_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G24_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.25" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="2" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="ModbusTcp_G8" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_405" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G9" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.138" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G8_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G25" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G9_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.5" />
+    <Parameter ID="UnitId" Value="2" />
+    <Parameter ID="NumPendReq" Value="0" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="3" />
+    <Parameter ID="Cb_11_Addr" Value="1177" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="Volt_bat" />
+    <Parameter ID="Cb_11_C_1_Datatype" Value="3" />
+    <Group ID="Cb_12" />
+    <Parameter ID="Cb_12_FunCode" Value="2" />
+    <Parameter ID="Cb_12_NumItems" Value="0" />
+    <Group ID="Cb_12_C_1" />
+    <Parameter ID="Cb_12_C_1_Name" Value="AVG_feedback" />
+    <Group ID="Cb_13" />
+    <Parameter ID="Cb_13_FunCode" Value="3" />
+    <Parameter ID="Cb_13_Addr" Value="1186" />
+    <Parameter ID="Cb_13_NumItems" Value="2" />
+    <Group ID="Cb_13_C_1" />
+    <Parameter ID="Cb_13_C_1_Name" Value="Total_Power" />
+    <Parameter ID="Cb_13_C_1_Datatype" Value="4" />
+    <Group ID="Cb_14" />
+    <Parameter ID="Cb_14_FunCode" Value="3" />
+    <Parameter ID="Cb_14_Addr" Value="1194" />
+    <Parameter ID="Cb_14_NumItems" Value="2" />
+    <Group ID="Cb_14_C_1" />
+    <Parameter ID="Cb_14_C_1_Name" Value="Total_working_hours" />
+    <Parameter ID="Cb_14_C_1_Datatype" Value="4" />
+    <Group ID="Cb_15" />
+    <Parameter ID="Cb_15_FunCode" Value="3" />
+    <Parameter ID="Cb_15_NumItems" Value="0" />
+    <Group ID="Cb_15_C_1" />
+    <Parameter ID="Cb_15_C_1_Name" Value="Count_Runs" />
+    <Parameter ID="Cb_15_C_1_Datatype" Value="5" />
+  </Module>
+  <Module Name="ModbusTcp_G9" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G8" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G10" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.139" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="ModbusTcp_G9_ComAp" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="ModbusTcp_G8_ComAp" TargetConnector="ETH2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="ETH2" TargetModule="ModbusTcp_G10_ComAp" TargetConnector="ETH1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.147.178.6" />
+    <Parameter ID="UnitId" Value="1" />
+    <Parameter ID="NumPendReq" Value="0" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="1218" />
+    <Parameter ID="Cb_1_NumItems" Value="0" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="mode" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="3" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="6" />
+    <Parameter ID="Cb_2_AddrExt" Value="3000" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="0" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="Ser_power" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="1" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_AddrExt" Value="3001" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="0" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="Set_PF" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="6" />
+    <Parameter ID="Cb_4_AddrExt" Value="3002" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="0" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="Start_gpu_int" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="1" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="6" />
+    <Parameter ID="Cb_5_AddrExt" Value="3003" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="0" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="Stop_gpu_int" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="1" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_AddrExt" Value="3004" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="0" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="Breker_on_of_int" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="6" />
+    <Parameter ID="Cb_7_AddrExt" Value="3005" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="0" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Mode_gpu" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="5" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Group ID="Cb_8" />
+    <Parameter ID="Cb_8_FunCode" Value="6" />
+    <Parameter ID="Cb_8_AddrExt" Value="3006" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="0" />
+    <Group ID="Cb_8_C_1" />
+    <Parameter ID="Cb_8_C_1_Name" Value="Start_Stop_auto" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="1" />
+    <Group ID="Cb_9" />
+    <Parameter ID="Cb_9_FunCode" Value="16" />
+    <Parameter ID="Cb_9_AddrExt" Value="3777" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="0" />
+    <Group ID="Cb_9_C_1" />
+    <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="1" />
+    <Group ID="Cb_9_C_2" />
+    <Parameter ID="Cb_9_C_2_Name" Value="Alarm_stop2" />
+    <Parameter ID="Cb_9_C_2_Datatype" Value="3" />
+    <Parameter ID="Cb_9_C_2_Dir" Value="1" />
+    <Group ID="Cb_10" />
+    <Parameter ID="Cb_10_FunCode" Value="2" />
+    <Parameter ID="Cb_10_Addr" Value="324" />
+    <Parameter ID="Cb_10_NumItems" Value="0" />
+    <Group ID="Cb_10_C_1" />
+    <Parameter ID="Cb_10_C_1_Name" Value="Warning" />
+    <Group ID="Cb_10_C_2" />
+    <Parameter ID="Cb_10_C_2_Name" Value="Red_Alar" />
+    <Group ID="Cb_11" />
+    <Parameter ID="Cb_11_FunCode" Value="3" />
+    <Parameter ID="Cb_11_Addr" Value="1177" />
+    <Parameter ID="Cb_11_NumItems" Value="0" />
+    <Group ID="Cb_11_C_1" />
+    <Parameter ID="Cb_11_C_1_Name" Value="Volt_bat" />
+    <Parameter ID="Cb_11_C_1_Datatype" Value="3" />
+    <Group ID="Cb_12" />
+    <Parameter ID="Cb_12_FunCode" Value="2" />
+    <Parameter ID="Cb_12_NumItems" Value="0" />
+    <Group ID="Cb_12_C_1" />
+    <Parameter ID="Cb_12_C_1_Name" Value="AVG_feedback" />
+  </Module>
+  <Module Name="X20AI2437" Type="X20AI2437" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12l" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11j" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20AT4222" Type="X20AT4222" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12k" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11i" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20BM01" Type="X20BM01" Version="2.2.0.0">
+    <Connection Connector="X2X1" TargetModule="X20CP1685" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20BM01a" Type="X20BM01" Version="2.2.0.0" />
+  <Module Name="X20BM11" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20CM0985-1_b" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM01a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11b" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11c" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11b" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11d" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11c" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11e" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11d" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11f" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11e" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11g" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11f" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11h" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11g" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11i" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11h" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11j" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11i" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BR9300" Type="X20BR9300" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM01a" TargetConnector="SL1" />
+    <Connection Connector="X2X1" TargetModule="X20BT9100" TargetConnector="X2X1">
+      <Cable Type="X2XCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+  </Module>
+  <Module Name="X20BT9100" Type="X20BT9100" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20CM0985-1_a" Type="X20CM0985-1" Version="2.3.1.0">
+    <Connection Connector="X2X1" TargetModule="X20BM01" TargetConnector="X2X2" />
+    <Parameter ID="GenGrounding" Value="L2" />
+    <Parameter ID="GenRange" Value="100V" />
+    <Parameter ID="MGen" Value="10000" />
+    <Parameter ID="UnennGen" Value="10000" />
+    <Parameter ID="CurrentRange" Value="1A" />
+    <Parameter ID="Sync1Grounding" Value="L2" />
+    <Parameter ID="Sync1Range" Value="100V" />
+    <Parameter ID="MSyn1" Value="10000" />
+    <Parameter ID="Sync2Grounding" Value="L2" />
+    <Parameter ID="Sync2Range" Value="100V" />
+    <Parameter ID="MSyn2" Value="10000" />
+    <Parameter ID="UnennSyn" Value="10000" />
+    <Parameter ID="BusGrounding" Value="L2" />
+    <Parameter ID="BusRange" Value="100V" />
+    <Parameter ID="UnennSamm" Value="10000" />
+    <Parameter ID="Msammel" Value="10000" />
+    <Parameter ID="SyncConfig" Value="X5X3" />
+    <Parameter ID="dfMax" Value="20" />
+    <Parameter ID="dfMin" Value="-20" />
+    <Parameter ID="dUMax" Value="25" />
+    <Parameter ID="PhiMax" Value="70" />
+    <Parameter ID="MinIZusch" Value="1000" />
+    <Parameter ID="Tswitch" Value="50" />
+    <Parameter ID="DO6onDelay" Value="50" />
+  </Module>
+  <Module Name="X20CM0985-1_b" Type="X20CM0985-1" Version="2.3.1.0">
+    <Connection Connector="X2X1" TargetModule="X20CM0985-1_a" TargetConnector="X2X2" />
+    <Parameter ID="GenRange" Value="100V" />
+    <Parameter ID="MGen" Value="10000" />
+    <Parameter ID="UnennGen" Value="10000" />
+    <Parameter ID="CurrentRange" Value="1A" />
+    <Parameter ID="Sync1Grounding" Value="L2" />
+    <Parameter ID="Sync1Range" Value="100V" />
+    <Parameter ID="MSyn1" Value="10000" />
+    <Parameter ID="Sync2Grounding" Value="L2" />
+    <Parameter ID="Sync2Range" Value="100V" />
+    <Parameter ID="MSyn2" Value="10000" />
+    <Parameter ID="UnennSyn" Value="10000" />
+    <Parameter ID="BusGrounding" Value="L2" />
+    <Parameter ID="BusRange" Value="100V" />
+    <Parameter ID="UnennSamm" Value="10000" />
+    <Parameter ID="dfMax" Value="20" />
+    <Parameter ID="dfMin" Value="-20" />
+    <Parameter ID="dUMax" Value="25" />
+    <Parameter ID="PhiMax" Value="70" />
+  </Module>
+  <Module Name="X20CP1685" Type="X20CP1685" Version="1.5.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="HostName" Value="shvv_tp2" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.147.176.62" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="Operation" Value="EthOnly" />
+      <Parameter ID="EthernetMode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.147.177.62" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="ActivateIna" Value="1" />
+      <Parameter ID="ActivateANSL" Value="1" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="SHWW_TP2" />
+    <Parameter ID="UserPartitionSize" Value="0" />
+    <Parameter ID="RebootReset" Value="32" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USER" />
+    <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+  </Module>
+  <Module Name="X20IF1082-2" Type="X20IF1082-2" Version="1.14.0.0">
+    <Connection Connector="SS" TargetModule="X20CP1685" TargetConnector="SS1" />
+    <Connector Name="IF1">
+      <Parameter ID="Operation" Value="EthOnly" />
+      <Parameter ID="EthernetMode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.147.178.7" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+      <Parameter ID="ActivateModbus" Value="1" />
+      <Parameter ID="NumSlaves" Value="-1" />
+      <Parameter ID="NumAllBlocks" Value="-1" />
+      <Parameter ID="MemSizeIn" Value="-1" />
+      <Parameter ID="MemSizeOut" Value="-1" />
+    </Connector>
+  </Module>
+  <Module Name="X20PS3300" Type="X20PS3300" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM01" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12b" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12c" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12d" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12e" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12f" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12g" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12h" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12i" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12j" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12k" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12l" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>
