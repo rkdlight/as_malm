@@ -149,7 +149,6 @@ VAR
 	TON_emergency : TON;
 	TON_start : TON;
 	TOF_start : TOF;
-	TP_emergency : TP;
 	TP_mode_man : TP;
 	TP_mode_auto : TP;
 	TP_stop : TP;
@@ -164,8 +163,9 @@ VAR
 	R_TRIG_mode_auto : R_TRIG;
 	R_TRIG_mode_man : R_TRIG;
 	R_TRIG_breker : R_TRIG;
-	emergency_flag : BOOL;
 	R_TRIG_start : R_TRIG;
+	emergency_flag : BOOL;
+	
 	TON_alarm_high_t_motor_oil : TON;
 	TON_alarm_high_t_engine_water : TON;
 	TON_alarm_low_p_lubric : TON;
@@ -180,11 +180,12 @@ VAR
 	RS_start_watch_alarms : RS;
 	R_trig_start_watch_alarms : R_TRIG;
 	R_trig_stop_watch_alarms : R_TRIG;
-	alarms_normal_stop : BOOL;
-	OperatorSetPower : INT;
-	alarms_derate_power : BOOL;
+	alarms_normal_stop: BOOL;
+	OperatorSetPower: INT;
+	alarms_derate_power: BOOL;
 	TON_high_t_forward_bearing : TON;
 	TON_high_t_backward_bearing : TON;
+	
 	log_SetPower : INT;
 	log_SetPF : INT;
 	log_StartGPU : INT;

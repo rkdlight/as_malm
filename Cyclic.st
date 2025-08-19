@@ -1,7 +1,7 @@
 
 PROGRAM _CYCLIC
 	
-	station:='SS1.IF1.ETH.ST9';
+	station:='SS1.IF1.ETH.ST10';
 	
 
 		
@@ -321,7 +321,7 @@ PROGRAM _CYCLIC
 
 	IF RS_emergency.Q1 THEN
 		// Запускаем таймер при активном триггере
-		TON_emergency(IN := TRUE, PT := T#1s);
+		TON_emergency(IN := TRUE, PT := T#3s);
     
 		// Фаза 1 - до истечения таймера
 		IF NOT TON_emergency.Q THEN

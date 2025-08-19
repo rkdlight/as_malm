@@ -1,6 +1,6 @@
 
 TYPE
-	GPU_control : 	STRUCT 
+	GPU_control : {REDUND_UNREPLICABLE} 	STRUCT 
 		emergency_stop_gpu_int : {REDUND_UNREPLICABLE} INT;
 		emergency_stop_gpu_do : {REDUND_UNREPLICABLE} BOOL;
 		Start_gpu_do : {REDUND_UNREPLICABLE} BOOL;
@@ -25,8 +25,5 @@ TYPE
 		AVG_feedback : {REDUND_UNREPLICABLE} BOOL;
 		feedback_stop_auto : {REDUND_UNREPLICABLE} BOOL;
 		feedback_start_auto : {REDUND_UNREPLICABLE} BOOL;
-		total_power_gen : DINT;
-		total_working_hours : DINT;
-		count_of_runs : USINT;
 	END_STRUCT;
 END_TYPE
