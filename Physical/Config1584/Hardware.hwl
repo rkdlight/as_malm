@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1584.Hardware.hw" LastWriteTime="02/10/2025 15:41:57" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1584" Type="X20CP1584" X="100" Y="100" />
+    <Module Name="X20IF1082-2" Type="X20IF1082-2" X="212" Y="100" />
+    <Module Name="X20BM11" Type="X20BM11" X="250" Y="100" />
+    <Module Name="X20CS1030" Type="X20CS1030" X="250" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="250" Y="127" />
+    <Module Name="X20BM11a" Type="X20BM11" X="263" Y="100" />
+    <Module Name="X20CS1030a" Type="X20CS1030" X="263" Y="100" />
+    <Module Name="X20TB12a" Type="X20TB12" X="263" Y="127" />
+    <Module Name="X20BM11b" Type="X20BM11" X="276" Y="100" />
+    <Module Name="X20AT4222" Type="X20AT4222" X="276" Y="100" />
+    <Module Name="X20TB12b" Type="X20TB12" X="276" Y="127" />
+    <Module Name="X20BM01" Type="X20BM01" X="289" Y="100" />
+    <Module Name="X20PS2110" Type="X20PS2110" X="289" Y="100" />
+    <Module Name="X20TB12c" Type="X20TB12" X="289" Y="127" />
+    <Module Name="X20BM11c" Type="X20BM11" X="302" Y="100" />
+    <Module Name="X20DI9371" Type="X20DI9371" X="302" Y="100" />
+    <Module Name="X20TB12d" Type="X20TB12" X="302" Y="127" />
+    <Module Name="X20BM11d" Type="X20BM11" X="315" Y="100" />
+    <Module Name="X20DI9371a" Type="X20DI9371" X="315" Y="100" />
+    <Module Name="X20TB12e" Type="X20TB12" X="315" Y="127" />
+    <Module Name="X20BM11e" Type="X20BM11" X="328" Y="100" />
+    <Module Name="X20DI9371b" Type="X20DI9371" X="328" Y="100" />
+    <Module Name="X20TB12f" Type="X20TB12" X="328" Y="127" />
+    <Module Name="X20BM11f" Type="X20BM11" X="341" Y="100" />
+    <Module Name="X20DI9371c" Type="X20DI9371" X="341" Y="100" />
+    <Module Name="X20TB12g" Type="X20TB12" X="341" Y="127" />
+    <Module Name="X20BM11g" Type="X20BM11" X="354" Y="100" />
+    <Module Name="X20DI9371d" Type="X20DI9371" X="354" Y="100" />
+    <Module Name="X20TB12h" Type="X20TB12" X="354" Y="127" />
+    <Module Name="X20BM11h" Type="X20BM11" X="367" Y="100" />
+    <Module Name="X20DI9371e" Type="X20DI9371" X="367" Y="100" />
+    <Module Name="X20TB12i" Type="X20TB12" X="367" Y="127" />
+    <Module Name="X20BM11i" Type="X20BM11" X="380" Y="100" />
+    <Module Name="X20DI9371f" Type="X20DI9371" X="380" Y="100" />
+    <Module Name="X20TB12j" Type="X20TB12" X="380" Y="127" />
+    <Module Name="X20BM11j" Type="X20BM11" X="393" Y="100" />
+    <Module Name="X20DI9371g" Type="X20DI9371" X="393" Y="100" />
+    <Module Name="X20TB12k" Type="X20TB12" X="393" Y="127" />
+    <Module Name="X20BM11k" Type="X20BM11" X="406" Y="100" />
+    <Module Name="X20DI9371h" Type="X20DI9371" X="406" Y="100" />
+    <Module Name="X20TB12l" Type="X20TB12" X="406" Y="127" />
+    <Module Name="X20BM11l" Type="X20BM11" X="419" Y="100" />
+    <Module Name="X20DI9371i" Type="X20DI9371" X="419" Y="100" />
+    <Module Name="X20TB12m" Type="X20TB12" X="419" Y="127" />
+    <Module Name="X20BM01a" Type="X20BM01" X="432" Y="100" />
+    <Module Name="X20PS2110a" Type="X20PS2110" X="432" Y="100" />
+    <Module Name="X20TB12n" Type="X20TB12" X="432" Y="127" />
+    <Module Name="X20BM11m" Type="X20BM11" X="445" Y="100" />
+    <Module Name="X20DO9322" Type="X20DO9322" X="445" Y="100" />
+    <Module Name="X20TB12o" Type="X20TB12" X="445" Y="127" />
+    <Module Name="X20BM11n" Type="X20BM11" X="458" Y="100" />
+    <Module Name="X20DO9322a" Type="X20DO9322" X="458" Y="100" />
+    <Module Name="X20TB12p" Type="X20TB12" X="458" Y="127" />
+    <Module Name="X20BM11o" Type="X20BM11" X="471" Y="100" />
+    <Module Name="X20DO9322b" Type="X20DO9322" X="471" Y="100" />
+    <Module Name="X20TB12q" Type="X20TB12" X="471" Y="127" />
+    <Module Name="X20BM11p" Type="X20BM11" X="484" Y="100" />
+    <Module Name="X20DO9322c" Type="X20DO9322" X="484" Y="100" />
+    <Module Name="X20TB12r" Type="X20TB12" X="484" Y="127" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>

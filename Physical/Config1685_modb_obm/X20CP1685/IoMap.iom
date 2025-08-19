@@ -1,0 +1,20 @@
+VAR_CONFIG
+	::mbTcpExch_:GPU_control_1.SetPower_ao AT %QW."ModbusTcp_any".Ser_power;
+	::mbTcpExch_:GPU_control_1.SetPF_ao AT %QW."ModbusTcp_any".Set_PF;
+	::mbTcpExch_:GPU_control_1.Start_gpu_do AT %QX."ModbusTcp_any".Start_gpu_do;
+	::mbTcpExch_:GPU_control_1.Stop_gpu_do AT %QX."ModbusTcp_any".Stop_gpu_do;
+	::mbTcpExch_:GPU_control_1.Breker_on_of AT %QX."ModbusTcp_any".Breker_on_of;
+	::mbTcpExch_:GPU_control_1.start_gpu_int AT %QW."ModbusTcp_any".Start_gpu_do;
+	::mbTcpExch_:GPU_control_1.stop_gpu_int AT %QW."ModbusTcp_any".Stop_gpu_do;
+	::mbTcpExch_:GPU_control_1.Set_mode_gpu_ao AT %QB."ModbusTcp_any".Mode_gpu;
+	::mbTcpExch_:GPU_control_1.Start_auto_do AT %QX."ModbusTcp_any".Start_Stop_auto;
+	::mbTcpExch_:GPU_control_1.Start_auto_int AT %QW."ModbusTcp_any".Start_Stop_auto;
+	::mbTcpExch_:GPU_control_1.Breker_on_of_int AT %QW."ModbusTcp_any".Breker_on_of;
+	::mbTcpExch_:GPU_control_1.emergency_stop_gpu_int AT %QW."ModbusTcp_any".Alar_stop;
+	::mbTcpExch_:GPU_control_1.Red_alarm AT %IX."ModbusTcp_any".Red_alarm;
+	::mbTcpExch_:Test_power1 AT %QW."ModbusTcp_any".Test_power1;
+	::mbTcpExch_:Test_power2 AT %QW."ModbusTcp_any".Test_power2;
+	::mbTcpExch_:Test_power1 AT %QD."ModbusTcp_any".Test_power1;
+	::mbTcpExch_:Test_power2  AT %QD."ModbusTcp_any".Test_power2;
+	::mbTcpExch_:Test_power2 AT %QD."ModbusTcp_any".test;
+END_VAR

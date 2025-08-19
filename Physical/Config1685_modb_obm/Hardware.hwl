@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1685_modb_obm.Hardware.hw" LastWriteTime="06/04/2025 11:17:43" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1685" Type="X20CP1685" X="100" Y="100" />
+    <Module Name="X20IF1082-2" Type="X20IF1082-2" X="212" Y="100" />
+    <Module Name="ModbusTcp_any" Type="ModbusTcp_any" X="250" Y="249" />
+  </Modules>
+  <Links>
+    <Link From="ModbusTcp_any" To="X20IF1082-2" FromPort="ETH1" ToPort="IF1" IsRoutedByUser="False">
+      <Point X="284" Y="293" />
+      <Point X="284" Y="293" />
+      <Point X="284" Y="300" />
+      <Point X="284" Y="305" />
+      <Point X="226" Y="305" />
+      <Point X="226" Y="200" />
+      <Point X="226" Y="191" />
+      <Point X="226" Y="191" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

@@ -1,0 +1,235 @@
+VAR_CONFIG
+	::hwHandl:hwDiag.cp1685.BatteryStatusCPU AT %IB."X20CP1584".BatteryStatusCPU;
+	::hwHandl:hwDiag.cp1685.statusInput01 AT %IX."X20CP1584".StatusInput01;
+	::hwHandl:hwDiag.cs1030_1.moduleOk AT %IX."X20CS1030".ModuleOk;
+	::hwHandl:hwDiag.cs1030_2.moduleOk AT %IX."X20CS1030a".ModuleOk;
+	::hwHandl:hwDiag.at4222.moduleOk AT %IX."X20AT4222".ModuleOk;
+	::hwHandl:hwDiag.at4222.StatusInput01 AT %IB."X20AT4222".StatusInput01;
+	::hwHandl:hwDiag.ps2110_1.moduleOk AT %IX."X20PS2110".ModuleOk;
+	::hwHandl:hwDiag.ps2110_1.StatusInput01 AT %IX."X20PS2110".StatusInput01;
+	::hwHandl:hwDiag.ps2110_1.StatusInput02 AT %IX."X20PS2110".StatusInput02;
+	::hwHandl:hwDiag.ps2110_1.StatusInput03 AT %IX."X20PS2110".StatusInput03;
+	::hwHandl:hwDiag.di9371_1.moduleOk AT %IX."X20DI9371".ModuleOk;
+	::hwHandl:hwDiag.di9371_2.moduleOk AT %IX."X20DI9371a".ModuleOk;
+	::hwHandl:hwDiag.di9371_3.moduleOk AT %IX."X20DI9371b".ModuleOk;
+	::hwHandl:hwDiag.di9371_4.moduleOk AT %IX."X20DI9371c".ModuleOk;
+	::hwHandl:hwDiag.di9371_5.moduleOk AT %IX."X20DI9371d".ModuleOk;
+	::hwHandl:hwDiag.di9371_6.moduleOk AT %IX."X20DI9371e".ModuleOk;
+	::hwHandl:hwDiag.di9371_7.moduleOk AT %IX."X20DI9371f".ModuleOk;
+	::hwHandl:hwDiag.di9371_8.moduleOk AT %IX."X20DI9371g".ModuleOk;
+	::hwHandl:hwDiag.di9371_9.moduleOk AT %IX."X20DI9371h".ModuleOk;
+	::hwHandl:hwDiag.di9371_10.moduleOk AT %IX."X20DI9371i".ModuleOk;
+	::hwHandl:hwDiag.ps2110_2.moduleOk AT %IX."X20PS2110a".ModuleOk;
+	::hwHandl:hwDiag.ps2110_2.StatusInput01 AT %IX."X20PS2110a".StatusInput01;
+	::hwHandl:hwDiag.ps2110_2.StatusInput02 AT %IX."X20PS2110a".StatusInput02;
+	::hwHandl:hwDiag.ps2110_2.StatusInput03 AT %IX."X20PS2110a".StatusInput03;
+	::hwHandl:hwDiag.do9322_1.moduleOk AT %IX."X20DO9322".ModuleOk;
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput01 AT %IX."X20DO9322".StatusDigitalOutput01;
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput02 AT %IX."X20DO9322".StatusDigitalOutput02; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput03 AT %IX."X20DO9322".StatusDigitalOutput03; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput04 AT %IX."X20DO9322".StatusDigitalOutput04; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput05 AT %IX."X20DO9322".StatusDigitalOutput05; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput06 AT %IX."X20DO9322".StatusDigitalOutput06; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput07 AT %IX."X20DO9322".StatusDigitalOutput07; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput08 AT %IX."X20DO9322".StatusDigitalOutput08; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput09 AT %IX."X20DO9322".StatusDigitalOutput09; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput10 AT %IX."X20DO9322".StatusDigitalOutput10; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput11 AT %IX."X20DO9322".StatusDigitalOutput11; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_1.statusDigitalOutput12 AT %IX."X20DO9322".StatusDigitalOutput12; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.moduleOk AT %IX."X20DO9322a".ModuleOk;
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput01 AT %IX."X20DO9322a".StatusDigitalOutput01;
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput02 AT %IX."X20DO9322a".StatusDigitalOutput02; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput03 AT %IX."X20DO9322a".StatusDigitalOutput03; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput04 AT %IX."X20DO9322a".StatusDigitalOutput04; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput05 AT %IX."X20DO9322a".StatusDigitalOutput05; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput06 AT %IX."X20DO9322a".StatusDigitalOutput06; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput07 AT %IX."X20DO9322a".StatusDigitalOutput07; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput08 AT %IX."X20DO9322a".StatusDigitalOutput08; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput09 AT %IX."X20DO9322a".StatusDigitalOutput09; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput10 AT %IX."X20DO9322a".StatusDigitalOutput10; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput11 AT %IX."X20DO9322a".StatusDigitalOutput11; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_2.statusDigitalOutput12 AT %IX."X20DO9322a".StatusDigitalOutput12; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.moduleOk AT %IX."X20DO9322b".ModuleOk;
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput01 AT %IX."X20DO9322b".StatusDigitalOutput01;
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput02 AT %IX."X20DO9322b".StatusDigitalOutput02; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput03 AT %IX."X20DO9322b".StatusDigitalOutput03; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput04 AT %IX."X20DO9322b".StatusDigitalOutput04; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput05 AT %IX."X20DO9322b".StatusDigitalOutput05; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput06 AT %IX."X20DO9322b".StatusDigitalOutput06; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput07 AT %IX."X20DO9322b".StatusDigitalOutput07; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput08 AT %IX."X20DO9322b".StatusDigitalOutput08; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput09 AT %IX."X20DO9322b".StatusDigitalOutput09; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput10 AT %IX."X20DO9322b".StatusDigitalOutput10; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput11 AT %IX."X20DO9322b".StatusDigitalOutput11; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_3.statusDigitalOutput12 AT %IX."X20DO9322b".StatusDigitalOutput12; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.moduleOk AT %IX."X20DO9322c".ModuleOk;
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput01 AT %IX."X20DO9322c".StatusDigitalOutput01;
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput02 AT %IX."X20DO9322c".StatusDigitalOutput02; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput03 AT %IX."X20DO9322c".StatusDigitalOutput03; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput04 AT %IX."X20DO9322c".StatusDigitalOutput04; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput05 AT %IX."X20DO9322c".StatusDigitalOutput05; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput06 AT %IX."X20DO9322c".StatusDigitalOutput06; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput07 AT %IX."X20DO9322c".StatusDigitalOutput07; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput08 AT %IX."X20DO9322c".StatusDigitalOutput08; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput09 AT %IX."X20DO9322c".StatusDigitalOutput09; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput10 AT %IX."X20DO9322c".StatusDigitalOutput10; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput11 AT %IX."X20DO9322c".StatusDigitalOutput11; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.do9322_4.statusDigitalOutput12 AT %IX."X20DO9322c".StatusDigitalOutput12; (*Status digital output 01 (0 = OK)*)
+	::hwHandl:hwDiag.if1082.moduleOk AT %IX."X20IF1082-2".ModuleOk;
+	::oprosDI_DO:arr.di[1] AT %IX."X20DI9371".DigitalInput01;
+	::oprosDI_DO:arr.di[2] AT %IX."X20DI9371".DigitalInput02;
+	::oprosDI_DO:arr.di[3] AT %IX."X20DI9371".DigitalInput03;
+	::oprosDI_DO:arr.di[4] AT %IX."X20DI9371".DigitalInput04;
+	::oprosDI_DO:arr.di[5] AT %IX."X20DI9371".DigitalInput05;
+	::oprosDI_DO:arr.di[6] AT %IX."X20DI9371".DigitalInput06;
+	::oprosDI_DO:arr.di[7] AT %IX."X20DI9371".DigitalInput07;
+	::oprosDI_DO:arr.di[8] AT %IX."X20DI9371".DigitalInput08;
+	::oprosDI_DO:arr.di[9] AT %IX."X20DI9371".DigitalInput09;
+	::oprosDI_DO:arr.di[10] AT %IX."X20DI9371".DigitalInput10;
+	::oprosDI_DO:arr.di[11] AT %IX."X20DI9371".DigitalInput11;
+	::oprosDI_DO:arr.di[12] AT %IX."X20DI9371".DigitalInput12;
+	::oprosDI_DO:arr.di[13] AT %IX."X20DI9371a".DigitalInput01;
+	::oprosDI_DO:arr.di[14] AT %IX."X20DI9371a".DigitalInput02;
+	::oprosDI_DO:arr.di[15] AT %IX."X20DI9371a".DigitalInput03;
+	::oprosDI_DO:arr.di[16] AT %IX."X20DI9371a".DigitalInput04;
+	::oprosDI_DO:arr.di[17] AT %IX."X20DI9371a".DigitalInput05;
+	::oprosDI_DO:arr.di[18] AT %IX."X20DI9371a".DigitalInput06;
+	::oprosDI_DO:arr.di[19] AT %IX."X20DI9371a".DigitalInput07;
+	::oprosDI_DO:arr.di[20] AT %IX."X20DI9371a".DigitalInput08;
+	::oprosDI_DO:arr.di[21] AT %IX."X20DI9371a".DigitalInput09;
+	::oprosDI_DO:arr.di[22] AT %IX."X20DI9371a".DigitalInput10;
+	::oprosDI_DO:arr.di[23] AT %IX."X20DI9371a".DigitalInput11;
+	::oprosDI_DO:arr.di[24] AT %IX."X20DI9371a".DigitalInput12;
+	::oprosDI_DO:arr.di[25] AT %IX."X20DI9371b".DigitalInput01;
+	::oprosDI_DO:arr.di[26] AT %IX."X20DI9371b".DigitalInput02;
+	::oprosDI_DO:arr.di[27] AT %IX."X20DI9371b".DigitalInput03;
+	::oprosDI_DO:arr.di[28] AT %IX."X20DI9371b".DigitalInput04;
+	::oprosDI_DO:arr.di[29] AT %IX."X20DI9371b".DigitalInput05;
+	::oprosDI_DO:arr.di[30] AT %IX."X20DI9371b".DigitalInput06;
+	::oprosDI_DO:arr.di[31] AT %IX."X20DI9371b".DigitalInput07;
+	::oprosDI_DO:arr.di[32] AT %IX."X20DI9371b".DigitalInput08;
+	::oprosDI_DO:arr.di[33] AT %IX."X20DI9371b".DigitalInput09;
+	::oprosDI_DO:arr.di[34] AT %IX."X20DI9371b".DigitalInput10;
+	::oprosDI_DO:arr.di[35] AT %IX."X20DI9371b".DigitalInput11;
+	::oprosDI_DO:arr.di[36] AT %IX."X20DI9371b".DigitalInput12;
+	::oprosDI_DO:arr.di[37] AT %IX."X20DI9371c".DigitalInput01;
+	::oprosDI_DO:arr.di[38] AT %IX."X20DI9371c".DigitalInput02;
+	::oprosDI_DO:arr.di[39] AT %IX."X20DI9371c".DigitalInput03;
+	::oprosDI_DO:arr.di[40] AT %IX."X20DI9371c".DigitalInput04;
+	::oprosDI_DO:arr.di[41] AT %IX."X20DI9371c".DigitalInput05;
+	::oprosDI_DO:arr.di[42] AT %IX."X20DI9371c".DigitalInput06;
+	::oprosDI_DO:arr.di[43] AT %IX."X20DI9371c".DigitalInput07;
+	::oprosDI_DO:arr.di[44] AT %IX."X20DI9371c".DigitalInput08;
+	::oprosDI_DO:arr.di[45] AT %IX."X20DI9371c".DigitalInput09;
+	::oprosDI_DO:arr.di[46] AT %IX."X20DI9371c".DigitalInput10;
+	::oprosDI_DO:arr.di[47] AT %IX."X20DI9371c".DigitalInput11;
+	::oprosDI_DO:arr.di[48] AT %IX."X20DI9371c".DigitalInput12;
+	::oprosDI_DO:arr.di[49] AT %IX."X20DI9371d".DigitalInput01;
+	::oprosDI_DO:arr.di[50] AT %IX."X20DI9371d".DigitalInput02;
+	::oprosDI_DO:arr.di[51] AT %IX."X20DI9371d".DigitalInput03;
+	::oprosDI_DO:arr.di[52] AT %IX."X20DI9371d".DigitalInput04;
+	::oprosDI_DO:arr.di[53] AT %IX."X20DI9371d".DigitalInput05;
+	::oprosDI_DO:arr.di[54] AT %IX."X20DI9371d".DigitalInput06;
+	::oprosDI_DO:arr.di[55] AT %IX."X20DI9371d".DigitalInput07;
+	::oprosDI_DO:arr.di[56] AT %IX."X20DI9371d".DigitalInput08;
+	::oprosDI_DO:arr.di[57] AT %IX."X20DI9371d".DigitalInput09;
+	::oprosDI_DO:arr.di[58] AT %IX."X20DI9371d".DigitalInput10;
+	::oprosDI_DO:arr.di[59] AT %IX."X20DI9371d".DigitalInput11;
+	::oprosDI_DO:arr.di[60] AT %IX."X20DI9371d".DigitalInput12;
+	::oprosDI_DO:arr.di[61] AT %IX."X20DI9371e".DigitalInput01;
+	::oprosDI_DO:arr.di[62] AT %IX."X20DI9371e".DigitalInput02;
+	::oprosDI_DO:arr.di[63] AT %IX."X20DI9371e".DigitalInput03;
+	::oprosDI_DO:arr.di[64] AT %IX."X20DI9371e".DigitalInput04;
+	::oprosDI_DO:arr.di[65] AT %IX."X20DI9371e".DigitalInput05;
+	::oprosDI_DO:arr.di[66] AT %IX."X20DI9371e".DigitalInput06;
+	::oprosDI_DO:arr.di[67] AT %IX."X20DI9371e".DigitalInput07;
+	::oprosDI_DO:arr.di[68] AT %IX."X20DI9371e".DigitalInput08;
+	::oprosDI_DO:arr.di[69] AT %IX."X20DI9371e".DigitalInput09;
+	::oprosDI_DO:arr.di[70] AT %IX."X20DI9371e".DigitalInput10;
+	::oprosDI_DO:arr.di[71] AT %IX."X20DI9371e".DigitalInput11;
+	::oprosDI_DO:arr.di[72] AT %IX."X20DI9371e".DigitalInput12;
+	::oprosDI_DO:arr.di[73] AT %IX."X20DI9371g".DigitalInput01;
+	::oprosDI_DO:arr.di[74] AT %IX."X20DI9371g".DigitalInput02;
+	::oprosDI_DO:arr.di[75] AT %IX."X20DI9371g".DigitalInput03;
+	::oprosDI_DO:arr.di[76] AT %IX."X20DI9371g".DigitalInput04;
+	::oprosDI_DO:arr.di[77] AT %IX."X20DI9371g".DigitalInput05;
+	::oprosDI_DO:arr.di[78] AT %IX."X20DI9371g".DigitalInput06;
+	::oprosDI_DO:arr.di[79] AT %IX."X20DI9371g".DigitalInput07;
+	::oprosDI_DO:arr.di[80] AT %IX."X20DI9371g".DigitalInput08;
+	::oprosDI_DO:arr.di[81] AT %IX."X20DI9371g".DigitalInput09;
+	::oprosDI_DO:arr.di[82] AT %IX."X20DI9371g".DigitalInput10;
+	::oprosDI_DO:arr.di[83] AT %IX."X20DI9371g".DigitalInput11;
+	::oprosDI_DO:arr.di[84] AT %IX."X20DI9371g".DigitalInput12;
+	::oprosDI_DO:arr.di[85] AT %IX."X20DI9371h".DigitalInput01;
+	::oprosDI_DO:arr.di[86] AT %IX."X20DI9371h".DigitalInput02;
+	::oprosDI_DO:arr.di[87] AT %IX."X20DI9371h".DigitalInput03;
+	::oprosDI_DO:arr.di[88] AT %IX."X20DI9371h".DigitalInput04;
+	::oprosDI_DO:arr.di[89] AT %IX."X20DI9371h".DigitalInput05;
+	::oprosDI_DO:arr.di[90] AT %IX."X20DI9371h".DigitalInput06;
+	::oprosDI_DO:arr.di[91] AT %IX."X20DI9371h".DigitalInput07;
+	::oprosDI_DO:arr.di[92] AT %IX."X20DI9371h".DigitalInput08;
+	::oprosDI_DO:arr.di[93] AT %IX."X20DI9371h".DigitalInput09;
+	::oprosDI_DO:arr.di[94] AT %IX."X20DI9371h".DigitalInput10;
+	::oprosDI_DO:arr.di[95] AT %IX."X20DI9371h".DigitalInput11;
+	::oprosDI_DO:arr.di[96] AT %IX."X20DI9371h".DigitalInput12;
+	::oprosDI_DO:arr.di[97] AT %IX."X20DI9371i".DigitalInput01;
+	::oprosDI_DO:arr.di[98] AT %IX."X20DI9371i".DigitalInput02;
+	::oprosDI_DO:arr.di[99] AT %IX."X20DI9371i".DigitalInput03;
+	::oprosDI_DO:arr.di[100] AT %IX."X20DI9371i".DigitalInput04;
+	::oprosDI_DO:arr.di[101] AT %IX."X20DI9371i".DigitalInput05;
+	::oprosDI_DO:arr.di[102] AT %IX."X20DI9371i".DigitalInput06;
+	::oprosDI_DO:arr.di[103] AT %IX."X20DI9371i".DigitalInput07;
+	::oprosDI_DO:arr.di[104] AT %IX."X20DI9371i".DigitalInput08;
+	::oprosDI_DO:arr.di[105] AT %IX."X20DI9371i".DigitalInput09;
+	::oprosDI_DO:arr.di[106] AT %IX."X20DI9371i".DigitalInput10;
+	::oprosDI_DO:arr.di[107] AT %IX."X20DI9371i".DigitalInput11;
+	::oprosDI_DO:arr.di[108] AT %IX."X20DI9371i".DigitalInput12;
+	::oprosDI_DO:arr.do[1] AT %QX."X20DO9322".DigitalOutput01;
+	::oprosDI_DO:arr.do[2] AT %QX."X20DO9322".DigitalOutput02;
+	::oprosDI_DO:arr.do[3] AT %QX."X20DO9322".DigitalOutput03;
+	::oprosDI_DO:arr.do[4] AT %QX."X20DO9322".DigitalOutput04;
+	::oprosDI_DO:arr.do[5] AT %QX."X20DO9322".DigitalOutput05;
+	::oprosDI_DO:arr.do[6] AT %QX."X20DO9322".DigitalOutput06;
+	::oprosDI_DO:arr.do[7] AT %QX."X20DO9322".DigitalOutput07;
+	::oprosDI_DO:arr.do[8] AT %QX."X20DO9322".DigitalOutput08;
+	::oprosDI_DO:arr.do[9] AT %QX."X20DO9322".DigitalOutput09;
+	::oprosDI_DO:arr.do[10] AT %QX."X20DO9322".DigitalOutput10;
+	::oprosDI_DO:arr.do[11] AT %QX."X20DO9322".DigitalOutput11;
+	::oprosDI_DO:arr.do[12] AT %QX."X20DO9322".DigitalOutput12;
+	::oprosDI_DO:arr.do[13] AT %QX."X20DO9322a".DigitalOutput01;
+	::oprosDI_DO:arr.do[14] AT %QX."X20DO9322a".DigitalOutput02;
+	::oprosDI_DO:arr.do[15] AT %QX."X20DO9322a".DigitalOutput03;
+	::oprosDI_DO:arr.do[16] AT %QX."X20DO9322a".DigitalOutput04;
+	::oprosDI_DO:arr.do[17] AT %QX."X20DO9322a".DigitalOutput05;
+	::oprosDI_DO:arr.do[18] AT %QX."X20DO9322a".DigitalOutput06;
+	::oprosDI_DO:arr.do[19] AT %QX."X20DO9322a".DigitalOutput07;
+	::oprosDI_DO:arr.do[20] AT %QX."X20DO9322a".DigitalOutput08;
+	::oprosDI_DO:arr.do[21] AT %QX."X20DO9322a".DigitalOutput09;
+	::oprosDI_DO:arr.do[22] AT %QX."X20DO9322a".DigitalOutput10;
+	::oprosDI_DO:arr.do[23] AT %QX."X20DO9322a".DigitalOutput11;
+	::oprosDI_DO:arr.do[24] AT %QX."X20DO9322a".DigitalOutput12;
+	::oprosDI_DO:arr.do[25] AT %QX."X20DO9322b".DigitalOutput01;
+	::oprosDI_DO:arr.do[26] AT %QX."X20DO9322b".DigitalOutput02;
+	::oprosDI_DO:arr.do[27] AT %QX."X20DO9322b".DigitalOutput03;
+	::oprosDI_DO:arr.do[28] AT %QX."X20DO9322b".DigitalOutput04;
+	::oprosDI_DO:arr.do[29] AT %QX."X20DO9322b".DigitalOutput05;
+	::oprosDI_DO:arr.do[30] AT %QX."X20DO9322b".DigitalOutput06;
+	::oprosDI_DO:arr.do[31] AT %QX."X20DO9322b".DigitalOutput07;
+	::oprosDI_DO:arr.do[32] AT %QX."X20DO9322b".DigitalOutput08;
+	::oprosDI_DO:arr.do[33] AT %QX."X20DO9322b".DigitalOutput09;
+	::oprosDI_DO:arr.do[34] AT %QX."X20DO9322b".DigitalOutput10;
+	::oprosDI_DO:arr.do[35] AT %QX."X20DO9322b".DigitalOutput11;
+	::oprosDI_DO:arr.do[36] AT %QX."X20DO9322b".DigitalOutput12;
+	::oprosDI_DO:arr.do[37] AT %QX."X20DO9322c".DigitalOutput01;
+	::oprosDI_DO:arr.do[38] AT %QX."X20DO9322c".DigitalOutput02;
+	::oprosDI_DO:arr.do[39] AT %QX."X20DO9322c".DigitalOutput03;
+	::oprosDI_DO:arr.do[40] AT %QX."X20DO9322c".DigitalOutput04;
+	::oprosDI_DO:arr.do[41] AT %QX."X20DO9322c".DigitalOutput05;
+	::oprosDI_DO:arr.do[42] AT %QX."X20DO9322c".DigitalOutput06;
+	::oprosDI_DO:arr.do[43] AT %QX."X20DO9322c".DigitalOutput07;
+	::oprosDI_DO:arr.do[44] AT %QX."X20DO9322c".DigitalOutput08;
+	::oprosDI_DO:arr.do[45] AT %QX."X20DO9322c".DigitalOutput09;
+	::oprosDI_DO:arr.do[46] AT %QX."X20DO9322c".DigitalOutput10;
+	::oprosDI_DO:arr.do[47] AT %QX."X20DO9322c".DigitalOutput11;
+	::oprosDI_DO:arr.do[48] AT %QX."X20DO9322c".DigitalOutput12;
+END_VAR
