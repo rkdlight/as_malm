@@ -335,17 +335,6 @@ VAR_CONFIG
 	::mbTcpExch_:GPU_control_1.emergency_stop_gpu_int AT %QW."ModbusTcp_G8_ComAp".Alar_stop;
 	::mbTcpExch_:GPU_control_1.Warning AT %IX."ModbusTcp_G8_ComAp".Warning;
 	::mbTcpExch_:GPU_control_1.Red_alarm AT %IX."ModbusTcp_G8_ComAp".Red_Alar;
-	::mbTcpExch1:modbusErrors_ComAP AT %IW."ModbusTcp_G9_ComAp".ModSlaveState;
-	::mbTcpExch1:GPU_control_1.mode_gpu_in AT %IW."ModbusTcp_G9_ComAp".mode;
-	::mbTcpExch1:GPU_control_1.SetPower_ao AT %QW."ModbusTcp_G9_ComAp".Ser_power;
-	::mbTcpExch1:GPU_control_1.SetPF_ao AT %QW."ModbusTcp_G9_ComAp".Set_PF;
-	::mbTcpExch1:GPU_control_1.start_gpu_int AT %QW."ModbusTcp_G9_ComAp".Start_gpu_int;
-	::mbTcpExch1:GPU_control_1.stop_gpu_int AT %QW."ModbusTcp_G9_ComAp".Stop_gpu_int;
-	::mbTcpExch1:GPU_control_1.Breker_on_of_int AT %QW."ModbusTcp_G9_ComAp".Breker_on_of_int;
-	::mbTcpExch1:GPU_control_1.Set_mode_gpu_ao AT %QB."ModbusTcp_G9_ComAp".Mode_gpu;
-	::mbTcpExch1:GPU_control_1.Start_auto_int AT %QW."ModbusTcp_G9_ComAp".Start_Stop_auto;
-	::mbTcpExch1:GPU_control_1.Warning AT %IX."ModbusTcp_G9_ComAp".Warning;
-	::mbTcpExch1:GPU_control_1.Red_alarm AT %IX."ModbusTcp_G9_ComAp".Red_Alar;
 	::mbTcpExch2:modbusErrors_ComAP AT %IW."ModbusTcp_G10_ComAp".ModSlaveState;
 	::mbTcpExch2:GPU_control_1.mode_gpu_in AT %IW."ModbusTcp_G10_ComAp".mode;
 	::mbTcpExch2:GPU_control_1.SetPower_ao AT %QW."ModbusTcp_G10_ComAp".Ser_power;
@@ -540,7 +529,6 @@ VAR_CONFIG
 	::mbTcpExc17:GPU_control_1.Red_alarm AT %IX."ModbusTcp_G25_ComAp".Red_Alar;
 	::mbTcpExch7:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G15_ComAp".AVG_feedback;
 	::mbTcpExch_:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G8_ComAp".AVG_feedback;
-	::mbTcpExch1:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G9_ComAp".AVG_feedback;
 	::mbTcpExch2:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G10_ComAp".AVG_feedback;
 	::mbTcpExch3:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G11_ComAp".AVG_feedback;
 	::mbTcpExch4:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G12_ComAp".AVG_feedback;
@@ -556,8 +544,6 @@ VAR_CONFIG
 	::mbTcpExc15:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G23_ComAp".AVG_feedback;
 	::mbTcpExc16:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G24_ComAp".AVG_feedback;
 	::mbTcpExc17:GPU_control_1.AVG_feedback AT %IX."ModbusTcp_G25_ComAp".AVG_feedback;
-	::mbTcpExch1:GPU_control_1.emergency_stop_gpu_int AT %QW."ModbusTcp_G9_ComAp".Alar_stop;
-	::mbTcpExch1:GPU_control_1.emergency_stop_gpu_int AT %QW."ModbusTcp_G9_ComAp".Alarm_stop2;
 	::oprosDI_DO:Break_switsh_401.Vkl AT %IX."1.2B310".DigitalInput02;
 	::oprosDI_DO:Break_switsh_401.Zn AT %IX."1.2B310".DigitalInput04;
 	::oprosDI_DO:Break_switsh_402.Vkl AT %IX."1.2B310".DigitalInput05;

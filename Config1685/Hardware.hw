@@ -2528,8 +2528,8 @@
     <Connection Connector="ETH2" TargetModule="ModbusTcp_G10_ComAp" TargetConnector="ETH1">
       <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
-    <Parameter ID="IpAddress" Value="10.147.178.6" />
-    <Parameter ID="UnitId" Value="1" />
+    <Parameter ID="IpAddress" Value="10.147.178.5" />
+    <Parameter ID="UnitId" Value="2" />
     <Parameter ID="NumPendReq" Value="0" />
     <Group ID="Cb_1" />
     <Parameter ID="Cb_1_FunCode" Value="3" />
@@ -2595,17 +2595,13 @@
     <Parameter ID="Cb_8_C_1_Datatype" Value="3" />
     <Parameter ID="Cb_8_C_1_Dir" Value="1" />
     <Group ID="Cb_9" />
-    <Parameter ID="Cb_9_FunCode" Value="16" />
-    <Parameter ID="Cb_9_AddrExt" Value="3777" />
+    <Parameter ID="Cb_9_FunCode" Value="6" />
+    <Parameter ID="Cb_9_AddrExt" Value="3007" />
     <Parameter ID="Cb_9_NumItemsExt" Value="0" />
     <Group ID="Cb_9_C_1" />
     <Parameter ID="Cb_9_C_1_Name" Value="Alar_stop" />
     <Parameter ID="Cb_9_C_1_Datatype" Value="3" />
     <Parameter ID="Cb_9_C_1_Dir" Value="1" />
-    <Group ID="Cb_9_C_2" />
-    <Parameter ID="Cb_9_C_2_Name" Value="Alarm_stop2" />
-    <Parameter ID="Cb_9_C_2_Datatype" Value="3" />
-    <Parameter ID="Cb_9_C_2_Dir" Value="1" />
     <Group ID="Cb_10" />
     <Parameter ID="Cb_10_FunCode" Value="2" />
     <Parameter ID="Cb_10_Addr" Value="324" />
@@ -2626,6 +2622,26 @@
     <Parameter ID="Cb_12_NumItems" Value="0" />
     <Group ID="Cb_12_C_1" />
     <Parameter ID="Cb_12_C_1_Name" Value="AVG_feedback" />
+    <Group ID="Cb_13" />
+    <Parameter ID="Cb_13_FunCode" Value="3" />
+    <Parameter ID="Cb_13_Addr" Value="1186" />
+    <Parameter ID="Cb_13_NumItems" Value="2" />
+    <Group ID="Cb_13_C_1" />
+    <Parameter ID="Cb_13_C_1_Name" Value="Total_Power" />
+    <Parameter ID="Cb_13_C_1_Datatype" Value="4" />
+    <Group ID="Cb_14" />
+    <Parameter ID="Cb_14_FunCode" Value="3" />
+    <Parameter ID="Cb_14_Addr" Value="1194" />
+    <Parameter ID="Cb_14_NumItems" Value="2" />
+    <Group ID="Cb_14_C_1" />
+    <Parameter ID="Cb_14_C_1_Name" Value="Total_working_hours" />
+    <Parameter ID="Cb_14_C_1_Datatype" Value="4" />
+    <Group ID="Cb_15" />
+    <Parameter ID="Cb_15_FunCode" Value="3" />
+    <Parameter ID="Cb_15_NumItems" Value="0" />
+    <Group ID="Cb_15_C_1" />
+    <Parameter ID="Cb_15_C_1_Name" Value="Count_Runs" />
+    <Parameter ID="Cb_15_C_1_Datatype" Value="5" />
   </Module>
   <Module Name="X20AI2437" Type="X20AI2437" Version="1.3.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12l" TargetConnector="SS" />
